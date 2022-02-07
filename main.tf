@@ -17,6 +17,6 @@ provider "google" {
     credentials = "keys.json"
 }
 resource google_storage_bucket GCS1 {
-  name = "gcp-terraform-sab"
+  name = "gcp-terraform-sac"
   location = "US"
 }
